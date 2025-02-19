@@ -1,0 +1,120 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Sat Jan 28 00:21:17 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000294
+      .config_2007_CALC.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000149      
+                            0x002007    0x002007      
+            331 out of 8454 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      add   0x000101    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     add1   0x000114    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    again   0x000134    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b0   0x0000cf    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b2   0x0000b2    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b3   0x0000b9    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b5   0x000094    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b6   0x00009b    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b8   0x000076    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b9   0x00007d    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       bd   0x000084    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       be   0x0000d6    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       bm   0x0000a2    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       bp   0x0000db    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       bs   0x0000c0    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     calc   0x0000e8    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    clear   0x000145    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                   disout   0x0000e4    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                      div   0x000118    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     done   0x0000e1    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    first   0x00002a    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     inid   0x000050    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                    keyin   0x00006b    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    keyon   0x000018    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    loop1   0x000032    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                    loopX   0x000037    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                     lowd   0x000140    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    minus   0x00010c    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                      mul   0x000112    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                      neg   0x000120    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    onems   0x000030    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                   outres   0x00012f    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                   pulseE   0x00003b    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                     rowb   0x00008a    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     rowc   0x0000a8    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     rowd   0x0000c6    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     scan   0x000013    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                   second   0x00002d    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     send   0x000040    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                    start   0x00000c    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                      sub   0x000105    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     sub1   0x00011b    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     wait   0x00001c    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                      xms   0x000036    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x00000c    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     scan   0x000013    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    keyon   0x000018    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     wait   0x00001c    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    first   0x00002a    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                   second   0x00002d    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    onems   0x000030    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                    loop1   0x000032    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                      xms   0x000036    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                    loopX   0x000037    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                   pulseE   0x00003b    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                     send   0x000040    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                     inid   0x000050    program     static C:\Personal\encs531\Pic_Examples\CALC\LCDIS.INC
+                    keyin   0x00006b    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b8   0x000076    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b9   0x00007d    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       bd   0x000084    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     rowb   0x00008a    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b5   0x000094    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b6   0x00009b    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       bm   0x0000a2    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     rowc   0x0000a8    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b2   0x0000b2    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b3   0x0000b9    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       bs   0x0000c0    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     rowd   0x0000c6    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       b0   0x0000cf    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       be   0x0000d6    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                       bp   0x0000db    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     done   0x0000e1    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                   disout   0x0000e4    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     calc   0x0000e8    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                      add   0x000101    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                      sub   0x000105    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    minus   0x00010c    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                      mul   0x000112    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     add1   0x000114    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                      div   0x000118    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     sub1   0x00011b    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                      neg   0x000120    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                   outres   0x00012f    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    again   0x000134    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                     lowd   0x000140    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+                    clear   0x000145    program     static C:\Personal\encs531\Pic_Examples\CALC\CALC.ASM
+
+

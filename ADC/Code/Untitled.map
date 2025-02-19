@@ -1,0 +1,70 @@
+MPLINK 4.41, Linker
+Linker Map File - Created Tue Feb 11 20:49:26 2025
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000134
+  .config_2007_UNTITLED.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000099      
+                            0x002007    0x002007      
+            155 out of 8454 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                        ?   0x00001a    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                   condec   0x000016    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                   getADC   0x000011    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                     inid   0x000071    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                    loop1   0x000053    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                    loopX   0x000058    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                    loopx   0x000096    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                    onems   0x000051    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                onesecond   0x00008c    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                   pulseE   0x00005c    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                   putLCD   0x00002d    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                     send   0x000061    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                    start   0x00000c    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                     sub1   0x00001c    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                     sub2   0x000024    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                  testing   0x00004a    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                     wait   0x000012    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                      xms   0x000057    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                 xseconds   0x000095    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x00000c    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                   getADC   0x000011    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                     wait   0x000012    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                   condec   0x000016    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                        ?   0x00001a    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                     sub1   0x00001c    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                     sub2   0x000024    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                   putLCD   0x00002d    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                  testing   0x00004a    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\Untitled.asm
+                    onems   0x000051    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                    loop1   0x000053    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                      xms   0x000057    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                    loopX   0x000058    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                   pulseE   0x00005c    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                     send   0x000061    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                     inid   0x000071    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                onesecond   0x00008c    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                 xseconds   0x000095    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+                    loopx   0x000096    program     static C:\Users\CS Net Games\Desktop\5th year\Trainging\VINtest\LCDIS.INC
+
+
